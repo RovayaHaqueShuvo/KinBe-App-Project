@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="Kinbe_BG">#E3D7FD</color>
+    <color name="Seller_Button_Color">#B192F3</color>
+    <color name="Seller_Button_Text_Color">#B300AC</color>
+    <color name="EditText_Plate_Color">#F5A5E4</color>
+    <color name="Login_SingUp_Button_Color">#3E5CFC</color>
+
+</resources>
