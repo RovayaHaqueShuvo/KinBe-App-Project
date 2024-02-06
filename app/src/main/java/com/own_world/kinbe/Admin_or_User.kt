@@ -20,7 +20,7 @@ class Admin_or_User : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
-
+//bundle passing to sign up activity for seller activity
         binding.sellerBtn.setOnClickListener {
             val intent = Intent(this@Admin_or_User, SignUp_Activity::class.java)
 
@@ -32,6 +32,7 @@ class Admin_or_User : AppCompatActivity() {
 
         }
 
+        //bundle passing to sign up activity for buyer activity
         binding.buyerBtn.setOnClickListener {
             val intent = Intent(this@Admin_or_User, SignUp_Activity::class.java)
 

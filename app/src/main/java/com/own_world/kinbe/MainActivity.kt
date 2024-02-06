@@ -18,6 +18,8 @@ class MainActivity : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
+
+        //Splash Screen
         SplashScreen()
     }
     private fun SplashScreen() {
@@ -27,6 +29,8 @@ class MainActivity : AppCompatActivity() {
     private open inner class launchOpratation : AsyncTask<String, Void, String>() {
         override fun doInBackground(vararg params: String?): String {
 
+            //using splashscreen "for" loop to delay the screen for 3 seconds
+            // instead of using "while" stastement
             for (i in 0..3) {
                 try {
                     Thread.sleep(1000)

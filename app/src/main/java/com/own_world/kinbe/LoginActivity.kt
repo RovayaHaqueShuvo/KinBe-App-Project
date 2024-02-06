@@ -22,6 +22,7 @@ class LoginActivity : AppCompatActivity() {
             insets
         }
 
+        //recive data from sign up activity
         val bun = getIntent().getExtras()
         val Value = bun!!.getInt("Value")
         if(Value == 1){
@@ -35,6 +36,8 @@ class LoginActivity : AppCompatActivity() {
             binding.customerEmail.setVisibility(View.GONE)
         }
 
+
+        //bundle passing to retailer sign up activity
         binding.retailerTextView6.setOnClickListener {
             val intent = Intent(this@LoginActivity, SignUp_Activity::class.java)
             val bundle = Bundle()
@@ -44,6 +47,7 @@ class LoginActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
+        //bundle passing to customer sign up activity
         binding.customerTextView6.setOnClickListener {
             val intent = Intent(this@LoginActivity, SignUp_Activity::class.java)
             val bundle = Bundle()
