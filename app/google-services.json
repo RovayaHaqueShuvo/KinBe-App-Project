@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "986152876831",
+    "project_id": "kinbe-1f143",
+    "storage_bucket": "kinbe-1f143.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:986152876831:android:25590323071adaabba4e2a",
+        "android_client_info": {
+          "package_name": "com.own_world.kinbe"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDpz6EgYdmPQjsyw6le9e8BrsQqU8JX3Tw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

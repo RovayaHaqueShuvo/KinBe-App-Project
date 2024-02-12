@@ -8,10 +8,10 @@
             <InsightsFilterSettings>
               <option name="connection">
                 <ConnectionSetting>
-                  <option name="appId" value="PLACEHOLDER" />
-                  <option name="mobileSdkAppId" value="" />
-                  <option name="projectId" value="" />
-                  <option name="projectNumber" value="" />
+                  <option name="appId" value="com.own_world.kinbe" />
+                  <option name="mobileSdkAppId" value="1:986152876831:android:25590323071adaabba4e2a" />
+                  <option name="projectId" value="kinbe-1f143" />
+                  <option name="projectNumber" value="986152876831" />
                 </ConnectionSetting>
               </option>
               <option name="signal" value="SIGNAL_UNSPECIFIED" />
