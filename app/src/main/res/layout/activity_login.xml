@@ -96,12 +96,12 @@ android:visibility="gone"
         </com.google.android.material.textfield.TextInputLayout>
 
         <Button
-            android:id="@+id/customer_signup_btn"
+            android:id="@+id/customer_login_btn"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
             android:backgroundTint="@color/Login_SingUp_Button_Color"
-            android:text="SignUp"
+            android:text="LOG IN"
             app:layout_constraintEnd_toEndOf="@+id/customer_password"
             app:layout_constraintStart_toStartOf="@+id/customer_password"
             app:layout_constraintTop_toBottomOf="@+id/customer_password" />
@@ -114,7 +114,7 @@ android:visibility="gone"
             android:gravity="center"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/customer_signup_btn">
+            app:layout_constraintTop_toBottomOf="@+id/customer_login_btn">
 
             <androidx.cardview.widget.CardView
                 android:layout_width="108dp"
@@ -196,7 +196,7 @@ android:visibility="gone"
         android:id="@+id/retailer_login"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:visibility="gone"
+        android:visibility=""
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -281,12 +281,12 @@ android:visibility="gone"
         </com.google.android.material.textfield.TextInputLayout>
 
         <Button
-            android:id="@+id/retailer_signup_btn"
+            android:id="@+id/retailer_login_btn"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
             android:backgroundTint="@color/Login_SingUp_Button_Color"
-            android:text="SignUp"
+            android:text="LOG IN"
             app:layout_constraintEnd_toEndOf="@+id/retailer_password"
             app:layout_constraintStart_toStartOf="@+id/retailer_password"
             app:layout_constraintTop_toBottomOf="@+id/retailer_password" />
@@ -299,7 +299,7 @@ android:visibility="gone"
             android:gravity="center"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/retailer_signup_btn">
+            app:layout_constraintTop_toBottomOf="@+id/retailer_login_btn">
 
             <androidx.cardview.widget.CardView
                 android:layout_width="108dp"
